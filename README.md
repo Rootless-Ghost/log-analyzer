@@ -16,7 +16,7 @@ A Python-based security log analysis tool designed for SOC analysts. Parses log 
 ## Demo
 
 ### Analysis Output
-![Log Analyzer Demo](screenshots/log-analyzer.png)
+![Log Analyzer Demo](log-analyzer.png)
 
 
   
