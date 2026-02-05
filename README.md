@@ -12,6 +12,14 @@ A Python-based security log analysis tool designed for SOC analysts. Parses log 
   - Account lockouts
 - **Reporting**: Generates clean, readable reports with severity ratings
 
+
+## Demo
+
+![Log Analyzer Demo](screenshot.png)
+
+
+  
+
 ## Installation
 
 ```bash
