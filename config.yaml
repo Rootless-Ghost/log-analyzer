@@ -1,0 +1,50 @@
+# Log Analyzer Configuration
+
+# Detection Rules Settings
+detection:
+  brute_force:
+    enabled: true
+    threshold: 5              # Number of failed attempts
+    time_window_minutes: 5    # Time window to check
+    severity: high
+
+  off_hours_login:
+    enabled: true
+    start_hour: 0             # 12:00 AM
+    end_hour: 5               # 5:00 AM
+    severity: medium
+
+  privilege_escalation:
+    enabled: true
+    severity: high
+    # Windows Event IDs to watch
+    event_ids:
+      - 4728    # Member added to security-enabled global group
+      - 4732    # Member added to security-enabled local group
+      - 4756    # Member added to security-enabled universal group
+
+  account_lockout:
+    enabled: true
+    severity: medium
+    event_ids:
+      - 4740    # Account lockout
+
+# Windows Event IDs Reference
+windows_events:
+  failed_login: 4625
+  successful_login: 4624
+  logoff: 4634
+  account_lockout: 4740
+  password_change: 4723
+  user_created: 4720
+  user_deleted: 4726
+
+# Output Settings
+output:
+  format: html              # html, csv, or json
+  directory: ./output
+  include_raw_events: false
+
+# Logging
+logging:
+  level: INFO               # DEBUG, INFO, WARNING, ERROR

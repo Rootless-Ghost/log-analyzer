@@ -1,0 +1,19 @@
+# Log Analyzer Dependencies
+
+# Log parsing
+python-evtx>=0.7.4      # Windows .evtx file parsing
+
+# Data handling
+pandas>=2.0.0           # Data manipulation and analysis
+
+# Reporting
+jinja2>=3.1.0           # HTML report templating
+
+# Configuration
+pyyaml>=6.0             # YAML config file support
+
+# CLI
+argparse                # Command line argument parsing (stdlib)
+
+# Future: API integrations
+# requests>=2.31.0      # For VirusTotal/AbuseIPDB lookups
