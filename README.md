@@ -2,12 +2,13 @@
   
 # 📁 Log Analyzer
 
-</div>
 
 A Python-based security log analysis tool designed for SOC analysts. Parses log files, detects suspicious activity, and generates actionable reports.
 
 ![Python](https://img.shields.io/badge/Python-3.9+-blue?logo=python)
 ![License](https://img.shields.io/badge/License-MIT-yellow)
+
+</div>
 
 ## Features
 
