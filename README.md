@@ -82,12 +82,12 @@ log-analyzer/
 - [ ] IP reputation lookup (VirusTotal/AbuseIPDB)
 - [ ] Custom detection rules via config
 
-## Author
-
-**RootlessGhost**
-
-Junior Penetration Tester | SOC Analyst in Training
-
 ## License
 
 MIT License - See [LICENSE](LICENSE) for details
+
+<div align="center">
+
+Built by [Rootless-Ghost](https://github.com/Rootless-Ghost) 
+
+</div>
