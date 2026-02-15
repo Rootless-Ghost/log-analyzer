@@ -1,4 +1,8 @@
-# Log Analyzer
+<div align="center">
+  
+# 📁 Log Analyzer
+
+</div>
 
 A Python-based security log analysis tool designed for SOC analysts. Parses log files, detects suspicious activity, and generates actionable reports.
 
